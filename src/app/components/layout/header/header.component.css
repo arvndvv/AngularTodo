@@ -1,0 +1,30 @@
+header {
+    background: #f36666;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1em 0;
+}
+
+h1 {
+    padding: 0;
+    color: #eee;
+    margin: 0;
+}
+
+nav {
+    color: #eee;
+}
+
+.menu {
+    text-decoration: none;
+    transition: 300s ease;
+    color: #eee;
+    font-weight: 600;
+    padding: 5px;
+}
+
+.menu:hover {
+    text-decoration: underline;
+}

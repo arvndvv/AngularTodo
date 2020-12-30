@@ -1,0 +1,30 @@
+.form {
+    display: flex;
+    margin: 1em;
+}
+
+.form * {
+    border: none;
+}
+
+.form input[type="text"] {
+    flex: 10;
+    padding: 5px;
+    background: #333;
+    color: #eee;
+}
+
+.form input[type='submit'] {
+    all: unset;
+    flex: 2;
+    text-align: center;
+    cursor: pointer;
+    font-weight: 800;
+    color: #eee;
+    background: steelblue;
+    transition: 300ms ease;
+}
+
+.form input[type='submit']:hover {
+    filter: brightness(110%);
+}

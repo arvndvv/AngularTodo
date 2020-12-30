@@ -1,0 +1,48 @@
+.todoItem {
+    display: block;
+    min-width: 200px;
+    max-width: 600px;
+    padding: 1em 2em;
+    background: antiquewhite;
+    margin: 1em 2em;
+    position: relative;
+}
+
+.todo_title {
+    display: inline;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 10px;
+    color: steelblue;
+    font-weight: 500;
+}
+
+input[type="checkbox" i] {
+    position: absolute;
+    left: 10px;
+}
+
+.del {
+    border: none;
+    position: absolute;
+    right: 10px;
+    top: 5px;
+    border-radius: 3px;
+    background: tomato;
+    color: wheat;
+    font-size: 0.8em;
+    padding: 2px 5px;
+    font-weight: 900;
+    float: right;
+    transition: 350ms ease;
+    cursor: pointer;
+    outline: none;
+}
+
+.del:hover {
+    filter: brightness(85%);
+    box-shadow: 2px 1px 5px 0px #8f1515 inset;
+}
+
+.isCompleted .todo_title {
+    text-decoration: line-through;
+}

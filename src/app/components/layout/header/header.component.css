@@ -19,12 +19,12 @@ nav {
 
 .menu {
     text-decoration: none;
-    transition: 300s ease;
-    color: #eee;
+    transition: 0.3s ease;
+    color: #ffb9b9;
     font-weight: 600;
     padding: 5px;
 }
 
 .menu:hover {
-    text-decoration: underline;
+    color: #eee;
 }

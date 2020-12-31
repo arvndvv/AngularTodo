@@ -1,5 +1,6 @@
 header {
-    background: #f36666;
+    /* background: #f36666; */
+    background: linear-gradient(to right, #F44336, #ff8700);
     display: flex;
     justify-content: center;
     align-items: center;

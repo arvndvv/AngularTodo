@@ -26,6 +26,11 @@ nav {
     padding: 5px;
 }
 
+.active {
+    color: snow;
+    border-bottom: 2px solid;
+}
+
 .menu:hover {
-    color: #eee;
+    filter: brightness(150%);
 }
